@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
-
 from sentence_transformers import SentenceTransformer
 import pinecone
 import openai
 import streamlit as st
+
+
 openai.api_key = "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"
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
