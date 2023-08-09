@@ -9,8 +9,8 @@ from langchain.prompts import (
 )
 import streamlit as st
 from streamlit_chat import message
-from sentence_transformers import SentenceTransformer
-#import SentenceTransformer
+#from sentence_transformers import SentenceTransformer
+import SentenceTransformer
 import pinecone
 import openai
 #from utils import *
