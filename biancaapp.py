@@ -9,8 +9,11 @@ from langchain.prompts import (
 )
 import streamlit as st
 from streamlit_chat import message
-import SentenceTransformer
-from utils import *
+from sentence_transformers import SentenceTransformer
+#import SentenceTransformer
+import pinecone
+import openai
+#from utils import *
 
 st.subheader("Chatbot with Langchain, ChatGPT, Pinecone, and Streamlit")
 
