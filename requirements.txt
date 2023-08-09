@@ -5,3 +5,4 @@ openai
 streamlit==1.25.0
 streamlit-chat==0.1.1
 pinecone-client
+sentencepiece==0.1.99
